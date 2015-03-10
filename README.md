@@ -1,2 +1,2 @@
-# mktyp_code
-Projects For The MKTYP Class
+# TYP-CS Spring 2015
+Some Projects Code For The MKTYP Class
