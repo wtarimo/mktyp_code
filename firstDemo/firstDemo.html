@@ -1,0 +1,21 @@
+<head>
+  <title>firstDemo</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button id="enterM">Male Enter</button>
+  <button id="leaveM">Male Leave</button>
+  <button id="enterF">Female Enter</button>
+  <button id="leaveF">Female Leave</button>
+  <p>The room has {{counter}} people.<br/>
+  <ul>
+	  <li>{{counterM}} men</li>
+	  <li>{{counterF}} women</li>
+  </ul></p>
+</template>
